@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.direction_column{
+    flex-direction: column;
+}
+
+
+.top{
+    background-color: aqua;
+    height: calc(100vh - 70px);
+}
+
+.top > .sidebar{
+    width: 70px;
+    background-color: black;
+}
+
+.top .sidebar_top{
+    height: calc(100% - 60px);
+    background-color: red;
+}
+
+.top > .content{
+    width: calc(100% - 70px);
+}
+
+.upgrade_section{
+    background-color: black;
+    color: white;
+    height:50px;
+    padding: 1rem;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+footer.bottom{
+    height: 70px;
+}
+
+
+
+
