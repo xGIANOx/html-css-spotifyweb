@@ -23,22 +23,70 @@
 
 }
 
+.m-top05{
+    margin-top: 0.5rem;
+}
+
 .m-top1{
     margin-top: 1rem;
+}
+
+.m-top2{
+    margin-top: 2rem;
+}
+
+.m-left1{
+    margin-left: 1rem;
 }
 
 .m-left05{
     margin-left: 0.5rem;
 }
 
-.align_center{
+.m-right05{
+    margin-right: 0.5rem;
+}
+
+.m-right1{
+    margin-right: 1rem;
+}
+
+.m-bottom05{
+    margin-bottom: 0.5rem;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.p-top05{
+    padding-top: 0.5rem;
+}
+
+
+.justify_center{
     justify-content: center;
+}
+
+.align_center{
+    align-items: center;
 }
 
 .display_none{
     display: none;
 }
 
+.white{
+    color: white;
+}
+
+.font06{
+    font-size: 0.6rem;
+}
+
+.width40{
+    width: 40%;
+}
 
 /* body */
 .top{
@@ -63,6 +111,7 @@
     overflow-y: auto;
 }
 
+
 .upgrade_section{
     background-color: #080b1245;
     color: white;
@@ -72,6 +121,14 @@
 
 .sidebar_top{
     align-items: center;
+    justify-content: space-between;
+   
+}
+
+.sidebar_bottom{
+    background-color: black;
+    margin-bottom: -3rem;
+   
 }
 
 footer{
@@ -87,6 +144,9 @@ footer.bottom{
         width: 220px;
         background-color: black;
         overflow: hidden;
+    }
+    .width10{
+        width: 10%;
     }
     .width20{
         width: 20%;
@@ -116,11 +176,30 @@ footer.bottom{
     .display_none_lg{
         display: none;
     }
+    .fa-square-plus{
+        font-size: 2.75rem;
+        color: gray;
+    }
+    .logo{
+        justify-content: flex-start;
+    }
+    .home{
+        justify-content: flex-start;
+    }
+    .search{
+        justify-content: flex-start;
+    }
+    .libreria{
+        justify-content: flex-start;
+    }
+    .playlist{
+        overflow-y: auto;
+    }
 }
 
 @media screen and (min-width:769px) {
     .top > .sidebar{
-        width: 180px;
+        width: 220px;
         background-color: black;
         overflow: hidden;
     }
@@ -133,11 +212,14 @@ footer.bottom{
     .menu_icons{
         margin-left: 1rem;
     }
+    .playlist{
+        overflow-y: auto;
+    }
 }
 
 @media screen and (min-width:1025px) {
     .top > .sidebar{
-        width: 180px;
+        width: 220px;
         background-color: black;
         overflow: hidden;
     }
