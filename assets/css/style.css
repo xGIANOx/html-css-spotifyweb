@@ -12,31 +12,66 @@
     flex-direction: column;
 }
 
+/* utilities */
 
+.max100{
+    max-width: 100%;
+}
+
+.width50{
+    width: 50%;
+
+}
+
+.m-top1{
+    margin-top: 1rem;
+}
+
+.m-left05{
+    margin-left: 0.5rem;
+}
+
+.align_center{
+    justify-content: center;
+}
+
+.display_none{
+    display: none;
+}
+
+
+/* body */
 .top{
-    background-color: aqua;
+    background-color: #141922;
     height: calc(100vh - 70px);
 }
 
 .top > .sidebar{
     width: 70px;
     background-color: black;
+    overflow: hidden;
 }
 
 .top .sidebar_top{
     height: calc(100% - 60px);
-    background-color: red;
+    background-color: black;
+
 }
 
 .top > .content{
     width: calc(100% - 70px);
+    overflow-y: auto;
 }
 
 .upgrade_section{
-    background-color: black;
+    background-color: #080b1245;
     color: white;
     height:50px;
     padding: 1rem;
+}
+
+.sidebar_top{
+    align-items: center;
 }
 
 footer{
@@ -47,6 +82,74 @@ footer.bottom{
     height: 70px;
 }
 
+@media screen and (min-width:426px) {
+    .top > .sidebar{
+        width: 220px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .width20{
+        width: 20%;
+    }
+    .width80{
+        width: 80%;
+    }
+    .sidebar_top{
+        align-items: flex-start;
+    }
+    .menu_icons{
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        padding-right: 0.5rem;
+        
+    }
+    .justify_start{
+        justify-content: flex-start;
+    }
+    .display_inline{
+        display: inline-block;
+        color: white;
+    }
+    .align_end{
+        align-self: flex-end;
+    }
+    .display_none_lg{
+        display: none;
+    }
+}
 
+@media screen and (min-width:769px) {
+    .top > .sidebar{
+        width: 180px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .width20{
+        width: 20%;
+    }
+    .sidebar_top{
+        align-items: flex-start;
+    }
+    .menu_icons{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .top > .sidebar{
+        width: 180px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .width20{
+        width: 20%;
+    }
+    .sidebar_top{
+        align-items: flex-start;
+    }
+    .menu_icons{
+        margin-left: 1rem;
+    }
+}
 
 
