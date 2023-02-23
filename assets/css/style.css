@@ -89,6 +89,20 @@
 }
 
 /* body */
+
+.nav_item{
+    text-decoration: none;
+    color: gray;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav_ul{
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .top{
     background-color: #141922;
     height: calc(100vh - 70px);
@@ -115,8 +129,16 @@
 .upgrade_section{
     background-color: #080b1245;
     color: white;
-    height:50px;
-    padding: 1rem;
+    padding: 2rem;
+    justify-content: flex-end;
+}
+
+.upgrade_now{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0.75rem 0.25rem;
+    border-radius: 30px;
 }
 
 .sidebar_top{
@@ -195,6 +217,17 @@ footer.bottom{
     .playlist{
         overflow-y: auto;
     }
+    .upgrade_now{
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 0.75rem 2rem;
+        border-radius: 30px;
+    }
+    nav{
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (min-width:769px) {
@@ -215,6 +248,17 @@ footer.bottom{
     .playlist{
         overflow-y: auto;
     }
+    .upgrade_now{
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 0.75rem 2rem;
+        border-radius: 30px;
+    }
+    nav{
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (min-width:1025px) {
@@ -232,6 +276,17 @@ footer.bottom{
     .menu_icons{
         margin-left: 1rem;
     }
+    .upgrade_now{
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 0.75rem 2rem;
+        border-radius: 30px;
+    }
+    nav{
+        justify-content: center;
+    }
+    
 }
 
 
