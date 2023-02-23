@@ -116,6 +116,10 @@
     margin-top: 0.5rem;
 }
 
+.round{
+    border-radius: 50%;
+}
+
 /* body */
 
 .nav_item{
