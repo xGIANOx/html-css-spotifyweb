@@ -14,6 +14,11 @@
 
 /* utilities */
 
+.container{
+    width: 90%;
+    margin: auto;
+}
+
 .max100{
     max-width: 100%;
 }
@@ -84,8 +89,26 @@
     font-size: 0.6rem;
 }
 
+.font1_5{
+    font-size: 1.5rem;
+}
+
 .width40{
     width: 40%;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.col_6{
+    width: calc(100% / 12 * 6 - 1rem);
+    height: 200px;
+    background-color: red;
+    border: 1px solid yellow;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /* body */
@@ -227,7 +250,6 @@ footer.bottom{
     nav{
         justify-content: center;
     }
-    
 }
 
 @media screen and (min-width:769px) {
@@ -258,6 +280,12 @@ footer.bottom{
     nav{
         justify-content: center;
     }
+    .col_3_md{
+        width: calc(100% / 12 * 3 - 1rem);
+    }
+    .row{
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -286,7 +314,12 @@ footer.bottom{
     nav{
         justify-content: center;
     }
-    
+    .col_2_lg{
+        width: calc(100% / 12 * 2);
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
 }
 
 
