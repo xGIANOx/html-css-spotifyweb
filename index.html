@@ -29,7 +29,7 @@
                     </div>
                     
 
-                    <div class="home flex align_center justify_center">
+                    <div class="home sidebar_icons flex align_center justify_center">
 
                         <img class="max100 width50 width20 m-top1" src="./assets/img/home.svg" alt="">
 
@@ -37,7 +37,7 @@
 
                     </div>
 
-                    <div class="search flex align_center justify_center">
+                    <div class="search sidebar_icons flex align_center justify_center">
 
                         <img class="max100 width50 width20 m-top1" src="./assets/img/search.svg" alt="">
 
@@ -47,7 +47,7 @@
 
                     
 
-                    <div class="libreria flex align_center justify_center">
+                    <div class="libreria sidebar_icons flex align_center justify_center">
 
                         <img class="max100 width50 width20 m-top1" src="./assets/img/libreria.svg" alt="">
 
@@ -69,12 +69,16 @@
 
                     <div class="new_playlist">
 
-                        <p class="white m-top2 m-left1">Nome playlist</p>
-                        <p class="white m-top1 m-left1">Nome playlist</p>
-                        <p class="white m-top1 m-left1">Nome playlist</p>
-                        <p class="white m-top1 m-left1">Nome playlist</p>
-                        <p class="white m-top1 m-left1">Nome playlist</p>
-                        <p class="white m-top1 m-left1">Nome playlist</p>
+                        <ul class="m-left1 m-top1 gray">
+                            <li class="m-top1">Nome playlist</li>
+                            <li class="m-top1">Nome playlist</li>
+                            <li class="m-top1">Nome playlist</li>
+                            <li class="m-top1">Nome playlist</li>
+                            <li class="m-top1">Nome playlist</li>
+                            <li class="m-top1">Nome playlist</li>
+                            
+                            
+                        </ul>
 
                     </div>
                     
@@ -85,7 +89,7 @@
                 <div class="sidebar_bottom flex direction_column">
 
                     <div class="bottom_top p-top05">
-                        <div class="download flex align_center m-left1 m-right1 justify_center m-bottom05">
+                        <div class="download sidebar_icons flex align_center m-left1 m-right1 justify_center m-bottom05">
     
                             <img class="max100 width10 width40" src="./assets/img/download.svg" alt="">
         
@@ -309,7 +313,7 @@
                 <h4 class="white m-top1 font08 sinister_h4">
                     Sinister
                 </h4>
-                <p class="gray font075 footer_p">Brano Nome</p>
+                <p class="gray font075 footer_p">Nome Brano</p>
                 
             </div>
             
@@ -331,22 +335,32 @@
 
                 </div>
                 <div class="player_bottom flex m-top05">
-                    <div class="white time col_4">
+                    <div class="white time col_4 text_center font06">
                         0:25
                     </div>
 
                     <div class="col_4 time_bar">
-
+                        <div class="time_song"></div>
                     </div>
 
-                    <div class="col_4 white time">
+                    <div class="col_4 white time text_center font06">
                         4:35
                     </div>
 
                 </div>
             </div>
         </div>
-        <div class="right col_4"></div>
+        <div class="right col_4 flex">
+
+            <i class="fa-solid fa-list white"></i>
+            <i class="fa-solid fa-desktop white m-left05 m-right05"></i>
+            <i class="fa-solid fa-volume-high white"></i>
+
+            <div class="col_4 w40px">
+                <div class="time_song"></div>
+            </div>
+
+        </div>
         
 
     </footer>

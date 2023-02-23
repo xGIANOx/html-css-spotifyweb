@@ -180,7 +180,7 @@
 .upgrade_section{
     background-color: #080b1245;
     color: white;
-    padding: 2rem;
+    padding: 1.5rem;
     justify-content: flex-end;
 }
 
@@ -202,6 +202,10 @@
     background-color: black;
     margin-bottom: -3rem;
    
+}
+
+.new_playlist ul{
+    list-style: none;
 }
 
 footer{
@@ -229,8 +233,25 @@ footer.bottom{
 .time_bar{
     width: 100%;
     margin: auto;
-    height: 3px;
+    height: 4px;
     background-color: gray;
+}
+
+.time_song{
+    width: 30%;
+    background-color: white;
+    height: 4px;
+}
+
+.right{
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.w40px{
+   max-width: 100px;
+   height: 4px;
+   background-color: gray;
 }
 
 
@@ -259,12 +280,15 @@ footer.bottom{
         padding-right: 0.5rem;
         
     }
+    .sidebar_icons{
+        filter: contrast(0.15);
+    }
     .justify_start{
         justify-content: flex-start;
     }
     .display_inline{
         display: inline-block;
-        color: white;
+        color: gray;
     }
     .align_end{
         align-self: flex-end;
@@ -281,6 +305,7 @@ footer.bottom{
     }
     .home{
         justify-content: flex-start;
+        color: gray;
     }
     .search{
         justify-content: flex-start;
@@ -298,7 +323,7 @@ footer.bottom{
         padding: 0.75rem 2rem;
         border-radius: 30px;
     }
-    nav{
+        nav{
         justify-content: center;
     }
     .download{
@@ -308,19 +333,24 @@ footer.bottom{
         padding: 0.5rem;
     }
     .sinister_h4{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .footer_p{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
     .footer_icons{
-        justify-content: center;
-    }
-    .player_top i{
-        margin-right: 1rem;
-        font-size: 1.5rem;
+        justify-content: flex-start;
     }
     
+    .time{
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .right{
+        justify-content: flex-end;
+    }
+
 }
 
 @media screen and (min-width:769px) {
@@ -365,7 +395,23 @@ footer.bottom{
     }
     .player_top i{
         margin-right: 2rem;
+        margin-left: 2rem;
         font-size: 1.5rem;
+    }
+    .sinister_h4{
+        font-size: 1.5rem;
+    }
+    .footer_p{
+        font-size: 0.9rem;
+    }
+    .footer_icons{
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0.5rem;
+    }
+    .fa-heart{
+        margin:auto
     }
     
 }
@@ -405,7 +451,8 @@ footer.bottom{
         justify-content: center;
     }
     .player_top i{
-        margin-right: 3rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
         font-size: 1.5rem;
     }
 }
